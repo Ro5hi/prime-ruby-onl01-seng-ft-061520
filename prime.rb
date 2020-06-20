@@ -13,4 +13,4 @@
   end
 end
 
-puts prime
+puts prime?
