@@ -9,4 +9,5 @@
  
     end  
   end
+   number % num != 0
 end
