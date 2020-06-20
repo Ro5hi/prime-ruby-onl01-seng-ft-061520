@@ -5,8 +5,8 @@
 	if number < 2
 		false
 	else
-    (2..number-1).to_a.none? do |num|
-    num % possible_factor != 0
+    (2..number-1).to_a.all? do |factor|
+      number % factor != 0
  
     end  
   end
